@@ -4,6 +4,14 @@
   --secondary: #050840;
   --highlight-primary: #7ce7c9;
   --highlight-secondary: #9d7beb;
+  --onClick: #FF0000;
+  --onDblClick: #A020F0;
+  --onKeydown: #FFFF00;
+  --onKeyup: #008000;
+  --onMouseOver:#808080;
+  --onLongPress: #e33fba;
+  --onMouseLeave: #B2AC88;
+  --onDeviceMotion: #f0293f;
   --radius: 0.5rem;
   --pill: 2rem;
   --line: 0.1rem;
@@ -79,3 +87,46 @@ a:nth-of-type(12) {
 }
 
 /* Jouw animaties */
+.onClick{
+  color: var(--onClick);
+}
+
+.onDblClick{
+  color: var(--onDblClick);
+}
+
+.onKeydown{
+  color: var(--onKeydown);
+}
+
+.onKeyup{
+  color: var(--onKeyup);
+}
+
+.onKeyup{
+  color: var(--onKeyup);
+}
+
+.onMouseOver{
+  transition: color 0.6s ease;
+}
+
+.onMouseOver:hover {
+  color: var(--onMouseOver);
+}
+
+.onMouseLeave {
+  transition: color 3s ease;
+}
+
+.onMouseLeave:hover {
+  color: var(--onMouseLeave);
+}
+
+.onLongPress{
+color: var(--onLongPress);
+}
+
+.onDeviceMotion{
+  color: var(--onDeviceMotion);
+}
